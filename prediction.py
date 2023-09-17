@@ -6,8 +6,8 @@ import tensorflow_hub as tfhb
 from keras.utils import custom_object_scope
 import tensorflow as tf
 class md():
-    with custom_object_scope({'KerasLayer': tfhb.KerasLayer("https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/2",trainable=False)}):
-           model=load_model("model\\model.h5")
+    with custom_object_scope({'KerasLayer': tfhb.KerasLayer("https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/2",trainable=False)}):                                
+        model=load_model("Finetuning-BERT-For-classification-of-text\model\model.h5")
     tokenizer=AutoTokenizer.from_pretrained('bert-base-uncased')
     def __init__(self):
         self.max_seq_length=128
