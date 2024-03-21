@@ -28,6 +28,15 @@ Total text in dataset is around 13 lakh of which sincere(93%) and insincere(7%)
 ### sample of dataset
 ![image](https://github.com/Krish-2505/Finetuning-BERT-For-classification-of-text/assets/120018777/62173e6f-5b61-46a0-8e70-c21e059d3517)
 
+## model 
+Our project involves creating a model that utilizes BERT, which is a transformer-based model known for its exceptional ability to encode text data bidirectionally, capturing intricate contextual relationships in language. This BERT model is combined with Artificial Neural Network (ANN) layers and dropout regularization techniques to enhance its predictive capabilities and prevent overfitting.
+
+Furthermore, we employ advanced techniques such as transfer learning and fine-tuning. Transfer learning involves leveraging knowledge gained from pre-trained models like BERT and applying it to our specific task, accelerating the training process and potentially improving performance. Fine-tuning, on the other hand, involves fine-tuning the parameters of the pre-trained BERT model to adapt it to our specific task, optimizing its performance further.
+
+### model architecture
+![image](https://github.com/Krish-2505/Finetuning-BERT-For-classification-of-text/assets/120018777/d8fd51cb-ef7e-449a-b519-9f0ddca5155d)
+
+
 ## demo of application
 <img width="890" alt="Screenshot 2024-03-19 221815" src="https://github.com/Krish-2505/Finetuning-BERT-For-classification-of-text/assets/120018777/5c06826f-5451-4ee8-bda1-37a87b6a3770">
 <img width="815" alt="image" src="https://github.com/Krish-2505/Finetuning-BERT-For-classification-of-text/assets/120018777/8e289007-c5b4-426e-9cbe-b18ae29259e1">
