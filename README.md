@@ -21,6 +21,10 @@ The training data includes the question that was asked, and whether it was ident
 - target - a question labeled "insincere" has a value of 1, otherwise 0
 ### size of the Dataset
 Total text in dataset is around 13 lakh of which sincere(93%) and insincere(7%)
+
+<img width="311" alt="image" src="https://github.com/Krish-2505/Finetuning-BERT-For-classification-of-text/assets/120018777/59e9cd19-8750-474d-8014-e5ccfe811369">
+- 0=>sincere
+- 1=>insincere
 ### sample of dataset
 ![image](https://github.com/Krish-2505/Finetuning-BERT-For-classification-of-text/assets/120018777/62173e6f-5b61-46a0-8e70-c21e059d3517)
 
